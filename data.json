@@ -1,74 +1,75 @@
 {
   "apis": {
+    "lastfm": {
+      "chip_keywords": [
+        "Last.fm", 
+        "Visualization", 
+        "Web"
+      ], 
+      "description": "The Last.fm API allows anyone to build their own programs using Last.fm data, whether they're on the web, the desktop or mobile devices.", 
+      "image": "last-fm.png", 
+      "keywords": [
+        "Music", 
+        "Services", 
+        "Visuals", 
+        "Tracks", 
+        "Radio", 
+        "Playlists", 
+        "Albums", 
+        "Chart", 
+        "Auth", 
+        "Geo", 
+        "Tag", 
+        "Library", 
+        "Chart", 
+        "User"
+      ], 
+      "link": "http://www.last.fm/api", 
+      "name": "Last.fm"
+    }, 
     "spotify": {
       "chip_keywords": [
         "Spotify", 
         "Web", 
         "Music"
       ], 
-      "description": "Spotify's Web API lets your applications fetch data from the Spotify music catalog and manage user’s playlists and saved music. Based on simple REST principles, Spotify's Web API endpoints return metadata in JSON format about artists, albums, and tracks directly from the Spotify catalogue. The API also provides access to user-related data such as playlists and music saved in a “Your Music” library, subject to user’s authorization.",
+      "description": "Spotify's Web API lets your applications fetch data from the Spotify music catalog and manage user\u2019s playlists and saved music. Based on simple REST principles, Spotify's Web API endpoints return metadata in JSON format about artists, albums, and tracks directly from the Spotify catalogue. The API also provides access to user-related data such as playlists and music saved in a \u201cYour Music\u201d library, subject to user\u2019s authorization.", 
       "image": "spotify.png", 
       "keywords": [
-        "Spotify",
-        "Music",
-        "Artists",
-        "Tracks",
-        "Albums",
-        "Concerts",
-        "Playlists",
+        "Spotify", 
+        "Music", 
+        "Artists", 
+        "Tracks", 
+        "Albums", 
+        "Concerts", 
+        "Playlists", 
         "SDK"
       ], 
       "link": "https://developer.spotify.com/web-api/", 
       "name": "Spotify"
     }, 
-    "lastfm": {
-      "chip_keywords": [
-        "Last.fm",
-        "Visualization",
-        "Web"
-      ], 
-      "description": "The Last.fm API allows anyone to build their own programs using Last.fm data, whether they're on the web, the desktop or mobile devices.",
-      "image": "last-fm.png", 
-      "keywords": [
-        "Music",
-        "Services",
-        "Visuals",
-        "Tracks",
-        "Radio",
-        "Playlists",
-        "Albums",
-        "Chart",
-        "Auth",
-        "Geo",
-        "Tag",
-        "Library",
-        "Chart",
-        "User"
-      ], 
-      "link": "http://www.last.fm/api", 
-      "name": "Last.fm"
-    }, 
     "webaudio": {
       "chip_keywords": [
-        "Web",
-        "Visualization",
+        "Web", 
+        "Visualization", 
         "Data"
       ], 
-      "description": "The Web Audio API provides a powerful and versatile system for controlling audio on the Web, allowing developers to choose audio sources, add effects to audio, create audio visualizations, apply spatial effects (such as panning) and much more.",
+      "description": "The Web Audio API provides a powerful and versatile system for controlling audio on the Web, allowing developers to choose audio sources, add effects to audio, create audio visualizations, apply spatial effects (such as panning) and much more.", 
       "image": "web-audio.png", 
       "keywords": [
-        "audio",
-        "graph",
-        "interface",
-        "interfaces",
-        "visualization",
-        "spatialisation",
-        "channels",
-        "data",
+        "audio", 
+        "graph", 
+        "interface", 
+        "interfaces", 
+        "visualization", 
+        "spatialisation", 
+        "channels", 
+        "data", 
         "buffer"
       ], 
       "link": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API", 
       "name": "Web Audio"
     }
-  }
+  }, 
+  "challenges": {}
 }
