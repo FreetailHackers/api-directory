@@ -5,12 +5,13 @@ Virtualenv is highly recommended to manage dependencies. This code uses Frozen-F
 ## To install on a Unix system:
 In the root level of your cloned directory:
 ```bash
-virtualenv venv
+virtualenv -p /usr/bin/python3<.x> venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
 Then, edit ```app/data.json``` as you please. When you are done, run
 ```bash
-cd app
-python freezer.py
+python app/freezer.py
 ```
+
+The result page is generated into the ```/docs``` directory

@@ -15,16 +15,8 @@ def parent_dir(path):
 FREEZER_RELATIVE_URLS = True
 
 PROJECT_ROOT = parent_dir(APP_DIR)
-# In order to deploy to Github pages, you must build the static files to
-# the project root
-FREEZER_DESTINATION = PROJECT_ROOT
+# In order to deploy to Github pages, deploying via the /docs directory
+FREEZER_DESTINATION = PROJECT_ROOT + '/docs'
 # Freezer will remove extra files it didn't generate, so the files listed
 # below are the relevant code we need to keep.
-FREEZER_DESTINATION_IGNORE = [
-    'venv/',
-    'requirements.txt',
-    'app/',
-    '.git*',
-    'LICENSE',
-    'CNAME',
-    'README.md']
+FREEZER_DESTINATION_IGNORE = []
