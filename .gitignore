@@ -34,3 +34,7 @@ ENV/
 
 # sass cache
 .sass-cache/
+
+#generated content
+index.html
+static/

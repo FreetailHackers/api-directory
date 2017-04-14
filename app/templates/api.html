@@ -10,7 +10,7 @@
 {% import "search.html" as search %}
 <nav class="freetail-blue">
   <div class="nav-wrapper">
-    <a href="{{ url_for('index_page') }}" class="logo-link brand-logo">HackTX API Directory</a>
+    <a href="{{ url_for('index_page') }}" class="logo-link brand-logo">Music Hacks API Directory</a>
     <form action="../" class="search-nav right">
       {{ search.searchbar() }}
     </form>
@@ -19,7 +19,7 @@
 {% endblock %}
 {% block content %}
 <div class="section">
-  <div class="container tan-text">
+  <div class="container dark-gray-text">
     <!-- <img src="{{ data.image }}" class="api-page-img center"> -->
     <h1 class="center">
       <a href="{{ data.link }}" class="tan-text">{{ data.name }}</a>
