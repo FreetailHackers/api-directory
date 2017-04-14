@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}HackTX API Directory{% endblock %}
+{% block title %}Music Hacks API Directory{% endblock %}
 {% block scripts %}
 <script type="text/javascript" src="{{ url_for('static', filename='js/velocity.min.js') }}"></script>
 <script type="text/javascript" src="{{ url_for('static', filename='js/hammer.min.js') }}"></script>
@@ -12,10 +12,10 @@
 {% endblock %}
 {% block header %}
 {% import "search.html" as search %}
-<div class="section freetail-blue">
+<div class="section freetail-purple">
   <div class="container">
     <h1 class="center-align">
-      <a href="." class="tan-text">HackTX API Portal</a>
+      <a href="." class="tan-text">Music Hacks API Portal</a>
     </h1>
     {{ search.searchbar(true) }}
   </div>
@@ -23,7 +23,7 @@
 {% endblock %}
 {% block content %}
 <div class="section">
-  <h2 class="tan-text section-header">APIs</h2>
+  <h2 class="dark-gray-text section-header">APIs</h2>
   <div class="container">
     <div class="row">
       {% for company, data in apis.items() %}
@@ -54,7 +54,7 @@
     </div>
   </div>
   <div class="divider"></div>
-  <h2 class="tan-text section-header">Company Challenges</h2>
+  <h2 class="dark-gray-text section-header">Company Challenges</h2>
   <div class="container">
     <div class="row">
       {% for company, data in challenges.items() %}
