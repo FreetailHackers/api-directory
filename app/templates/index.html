@@ -53,42 +53,6 @@
       {% endfor %}
     </div>
   </div>
-  <div class="divider"></div>
-  <h2 class="dark-gray-text section-header">Company Challenges</h2>
-  <div class="container">
-    <div class="row">
-      {% for company, data in challenges.items() %}
-      <div class="col s12 l6 api-card-div" id="{{ company + '-challenge' }}">
-        <div class="card small hoverable">
-          <div class="center api-img-wrapper">
-            <img src="{{ url_for('static', filename='img/partners/' + data.image) }}" class="api-img">
-          </div>
-          <div class="card-content">
-            <p class="block-with-text modal-trigger" href="{{ '#' + company + '-challenge-modal' }}">
-              {% if data.description %}{{ data.description|safe }}{% endif %}
-              {% for criteria, item in data.prizes.items() %}
-              <br>
-              {{ criteria + ': ' + item|safe }}
-              {% endfor %}
-            </p>
-          </div>
-          <div class="card-action">
-            <div class="card-links">
-              <a class="modal-trigger" href="{{ '#' + company + '-challenge-modal' }}">More Info</a>
-              {% if data.link %}
-              <a target="_blank" href="{{ data.link }}">Visit Website</a>
-              {% endif %}
-            </div>
-            <div class="chip-links">
-              {% for keyword in data.chip_keywords %}
-              <div class="chip keyword-chip">{{ keyword }}</div>
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
   </div>
 </div>
 {% for company, data in apis.items() %}
