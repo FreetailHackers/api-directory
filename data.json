@@ -9,23 +9,49 @@
       "description": "The Last.fm API allows anyone to build their own programs using Last.fm data, whether they're on the web, the desktop or mobile devices.", 
       "image": "last-fm.png", 
       "keywords": [
-        "Music", 
-        "Services", 
-        "Visuals", 
-        "Tracks", 
-        "Radio", 
-        "Playlists", 
-        "Albums", 
-        "Chart", 
-        "Auth", 
-        "Geo", 
-        "Tag", 
-        "Library", 
-        "Chart", 
-        "User"
+        "music", 
+        "services", 
+        "visuals", 
+        "tracks", 
+        "radio", 
+        "playlists", 
+        "albums", 
+        "chart", 
+        "auth", 
+        "geo", 
+        "tag", 
+        "library", 
+        "chart", 
+        "user"
       ], 
       "link": "http://www.last.fm/api", 
       "name": "Last.fm"
+    }, 
+    "soundcloud": {
+      "chip_keywords": [
+        "SoundCloud", 
+        "Widget", 
+        "Streaming"
+      ], 
+      "description": "Using the SoundCloud API, you can build applications that take sound on the web to the next level. With this guide we explain and provide code examples for many common integration use cases like playing and uploading sounds or how to take advantage of SoundCloud's many social features.", 
+      "image": "soundcloud.png", 
+      "keywords": [
+        "audio", 
+        "search", 
+        "widget", 
+        "web", 
+        "app", 
+        "server", 
+        "authentication", 
+        "sounds", 
+        "streaming", 
+        "pagination", 
+        "python", 
+        "ruby", 
+        "javascript"
+      ], 
+      "link": "https://developers.soundcloud.com/", 
+      "name": "SoundCloud"
     }, 
     "spotify": {
       "chip_keywords": [
@@ -36,14 +62,14 @@
       "description": "Spotify's Web API lets your applications fetch data from the Spotify music catalog and manage user\u2019s playlists and saved music. Based on simple REST principles, Spotify's Web API endpoints return metadata in JSON format about artists, albums, and tracks directly from the Spotify catalogue. The API also provides access to user-related data such as playlists and music saved in a \u201cYour Music\u201d library, subject to user\u2019s authorization.", 
       "image": "spotify.png", 
       "keywords": [
-        "Spotify", 
-        "Music", 
-        "Artists", 
-        "Tracks", 
-        "Albums", 
-        "Concerts", 
-        "Playlists", 
-        "SDK"
+        "spotify", 
+        "music", 
+        "artists", 
+        "tracks", 
+        "albums", 
+        "concerts", 
+        "playlists", 
+        "sdk"
       ], 
       "link": "https://developer.spotify.com/web-api/", 
       "name": "Spotify"
@@ -65,7 +91,8 @@
         "spatialisation", 
         "channels", 
         "data", 
-        "buffer"
+        "buffer", 
+        "javascript"
       ], 
       "link": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API", 
       "name": "Web Audio"
