@@ -1,5 +1,25 @@
 {
   "apis": {
+    "clyp": {
+      "chip_keywords": [
+        "clyp", 
+        "NoAuth", 
+        "Widgets"
+      ], 
+      "description": "The Clyp API is a JSON based RESTful API that powers clyp.it directly via CORS, as well as our mobile apps. Using Clyp's API, you can do everything that's available on clyp.it.", 
+      "image": "clyp.jpg", 
+      "keywords": [
+        "apps", 
+        "audio", 
+        "widget", 
+        "browse", 
+        "ios", 
+        "android", 
+        "micswap"
+      ], 
+      "link": "https://clyp.it/api", 
+      "name": "clyp"
+    }, 
     "lastfm": {
       "chip_keywords": [
         "Last.fm", 
@@ -26,32 +46,6 @@
       ], 
       "link": "http://www.last.fm/api", 
       "name": "Last.fm"
-    }, 
-    "soundcloud": {
-      "chip_keywords": [
-        "SoundCloud", 
-        "Widget", 
-        "Streaming"
-      ], 
-      "description": "Using the SoundCloud API, you can build applications that take sound on the web to the next level. With this guide we explain and provide code examples for many common integration use cases like playing and uploading sounds or how to take advantage of SoundCloud's many social features.", 
-      "image": "soundcloud.png", 
-      "keywords": [
-        "audio", 
-        "search", 
-        "widget", 
-        "web", 
-        "app", 
-        "server", 
-        "authentication", 
-        "sounds", 
-        "streaming", 
-        "pagination", 
-        "python", 
-        "ruby", 
-        "javascript"
-      ], 
-      "link": "https://developers.soundcloud.com/", 
-      "name": "SoundCloud"
     }, 
     "spotify": {
       "chip_keywords": [
