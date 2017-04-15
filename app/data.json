@@ -26,7 +26,28 @@
       ], 
       "link": "http://www.last.fm/api", 
       "name": "Last.fm"
-    },
+    }, 
+    "spotify": {
+      "chip_keywords": [
+        "Spotify", 
+        "Web", 
+        "Music"
+      ], 
+      "description": "Spotify's Web API lets your applications fetch data from the Spotify music catalog and manage user\u2019s playlists and saved music. Based on simple REST principles, Spotify's Web API endpoints return metadata in JSON format about artists, albums, and tracks directly from the Spotify catalogue. The API also provides access to user-related data such as playlists and music saved in a \u201cYour Music\u201d library, subject to user\u2019s authorization.", 
+      "image": "spotify.png", 
+      "keywords": [
+        "spotify", 
+        "music", 
+        "artists", 
+        "tracks", 
+        "albums", 
+        "concerts", 
+        "playlists", 
+        "sdk"
+      ], 
+      "link": "https://developer.spotify.com/web-api/", 
+      "name": "Spotify"
+    }, 
     "webaudio": {
       "chip_keywords": [
         "Web", 
@@ -49,32 +70,6 @@
       ], 
       "link": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API", 
       "name": "Web Audio"
-    },
-    "soundcloud": {
-      "chip_keywords": [
-        "SoundCloud", 
-        "Widget", 
-        "Streaming"
-      ], 
-      "description": "Using the SoundCloud API, you can build applications that take sound on the web to the next level. With this guide we explain and provide code examples for many common integration use cases like playing and uploading sounds or how to take advantage of SoundCloud's many social features.", 
-      "image": "soundcloud.png", 
-      "keywords": [
-        "audio", 
-        "search",
-        "widget",
-        "web",
-        "app",
-        "server",
-        "authentication",
-        "sounds",
-        "streaming",
-        "pagination",
-        "python",
-        "ruby",
-        "javascript"
-      ], 
-      "link": "https://developers.soundcloud.com/", 
-      "name": "SoundCloud"
     },
     "clyp": {
       "chip_keywords": [
