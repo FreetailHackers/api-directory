@@ -78,7 +78,7 @@
         "Widgets"
       ], 
       "description": "The Clyp API is a JSON based RESTful API that powers clyp.it directly via CORS, as well as our mobile apps. Using Clyp's API, you can do everything that's available on clyp.it.", 
-      "image": "clyp.jpg", 
+      "image": "clyp.png", 
       "keywords": [
         "apps", 
         "audio",
