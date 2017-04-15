@@ -19,4 +19,4 @@ PROJECT_ROOT = parent_dir(APP_DIR)
 FREEZER_DESTINATION = PROJECT_ROOT + '/docs'
 # Freezer will remove extra files it didn't generate, so the files listed
 # below are the relevant code we need to keep.
-FREEZER_DESTINATION_IGNORE = []
+FREEZER_DESTINATION_IGNORE = ['CNAME']
